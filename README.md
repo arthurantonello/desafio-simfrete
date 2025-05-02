@@ -45,13 +45,15 @@ o custo total desta rota.
 
    A execução fica a cabo do main, que importa as funções do utils_cep, espera o redirecionamento para um arquivo contendo os dados (entrada.txt por ex) e separa-os em blocos. Após isso é criado o mapa de conexões com o grafo, lido os dois ceps informados no final do arquivo de entrada de dados, vincula-os em cidades e executa o Dijkstra, buscando o caminho mais barato entre as duas cidades.
 
-   Fontes:
-   https://hub.asimov.academy/tutorial/como-ler-a-partir-do-stdin-em-python/
-   https://www.digitalocean.com/community/tutorials/read-stdin-python
-   https://blogboard.io/blog/knowledge/python-sorted-lambda/
-   https://stackoverflow.com/questions/3121979/how-to-sort-a-list-tuple-of-lists-tuples-by-the-element-at-a-given-index?utm_source=chatgpt.com
-   https://www.freecodecamp.org/news/lambda-sort-list-in-python/
-   https://elemarjr.com/clube-de-estudos/artigos/algoritmo-de-dijkstra-entendendo-o-caminho-minimo-em-grafos-ponderados/
-   https://www.freecodecamp.org/portuguese/news/algoritmo-de-caminho-de-custo-minimo-de-dijkstra-uma-introducao-detalhada-e-visual/
-   https://docs.python.org/pt-br/3/library/subprocess.html
-   https://medium.com/@robertocoliver/subprocess-no-python-937a3c3bd518
+ ## Fontes
+
+- [Como ler a partir do stdin em Python - Asimov Academy](https://hub.asimov.academy/tutorial/como-ler-a-partir-do-stdin-em-python/)
+- [Lendo a entrada do usuário em Python - DigitalOcean](https://www.digitalocean.com/community/tutorials/read-stdin-python)
+- [Ordenando com lambda em Python - Blogboard](https://blogboard.io/blog/knowledge/python-sorted-lambda/)
+- [Como ordenar uma lista de tuplas pelo índice em Python - StackOverflow](https://stackoverflow.com/questions/3121979/how-to-sort-a-list-tuple-of-lists-tuples-by-the-element-at-a-given-index?utm_source=chatgpt.com)
+- [Como ordenar listas com lambda em Python - FreeCodeCamp](https://www.freecodecamp.org/news/lambda-sort-list-in-python/)
+- [Algoritmo de Dijkstra - Entendendo o caminho mínimo em grafos ponderados - Elemar Jr.](https://elemarjr.com/clube-de-estudos/artigos/algoritmo-de-dijkstra-entendendo-o-caminho-minimo-em-grafos-ponderados/)
+- [Algoritmo de Caminho de Custo Mínimo de Dijkstra - FreeCodeCamp (PT)](https://www.freecodecamp.org/portuguese/news/algoritmo-de-caminho-de-custo-minimo-de-dijkstra-uma-introducao-detalhada-e-visual/)
+- [Documentação do subprocess no Python - Python Docs](https://docs.python.org/pt-br/3/library/subprocess.html)
+- [Subprocess no Python - Medium](https://medium.com/@robertocoliver/subprocess-no-python-937a3c3bd518)
+
