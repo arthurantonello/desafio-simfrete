@@ -1,4 +1,5 @@
 import sys
+from utils_cep import linha_valida
 
 def main():
     cidades = []
@@ -10,8 +11,9 @@ def main():
             break
         
         infos = linha.split(',')
-        if len(infos) != 3: #Garante que possui as 3 infos
+        if not linha_valida(infos):
             continue
+
         nome, inicio, fim  = infos[0].strip(), infos[1].strip(), infos[2].strip()
 
         # Assegura que inicio é menor que o fim
@@ -40,7 +42,7 @@ def main():
     # Encontra o cep no intervalo
     for inicio, fim, nome in cidades:
         if inicio <= cep_alvo <= fim:
-            print(f'O CEP alvo se encontra em {nome}.')
+            print(f'O CEP alvo {cep_alvo} se encontra em {nome}.')
             return
 
     print('CEP não encontrado.')
